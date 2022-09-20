@@ -30,10 +30,21 @@
       Var metrocard = 5;
 
 //b. write an if statement that has a condition to check if the value of metro card is greater than 2.75, and display the message "you have enough to ride the train", if the condition is true
-     if (metrocard value > 2.75) alert('You have enough to ride')
+    if (metrocard > 2.75) {
+  alert = "you have enought to ride";
+}
 //c.write an else statement that displays the message "you do not have enough to pay fare sorry"
+else {
+  alert = "you do not have enough to pay fare sorry";
+}
 
 //d. write the above if/else statement again as a ternary
+   if (metrocard >2.75) {
+   alert = "you have enough to ride";
+   }
+   else {
+   alert = "you do not have enough to pay fare sorry";
+   }
 
 //3. conditionals 2 (1 pt)
 //a.  complete this codecademy project: https://www.codecademy.com/courses/introduction-to-javascript/projects/magic-eight-ball-1
@@ -41,13 +52,16 @@
 
 //4. functions
 //a. write a function named helloWorld that returns the value 'Hello World!'
+     console.log('Hello World!');
 
 //b. console log the value returned from running the function helloWorld
 
 //3. arrays
 //a. define a variable myArray and assign it to a value of an array. Give the array at least 5 elements
+     const myArray = [Cat, Dog, Parrot, Snake, Hamster]
 
 //b. an array's index starts at:
+     An array's index starts at 0.
 //
 
 //4. loops
