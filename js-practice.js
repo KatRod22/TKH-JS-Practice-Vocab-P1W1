@@ -1,18 +1,36 @@
 //Complete the instructions for each numbered problem. Each numbered problem is worth 10 points
 
 //1. data types built-in methods, variables
+     var a = 'Hello World';
+     var b = 25;
+     var isWorking = 'True';
+     var a;
+     var b = null;
+     var person = {"name": "Katherine" , "age": "24"};
+     var animals = ["Dog", "Horse", "Sheep"];
+     var greeting = function(){}
+     
+     
 
+      
 //a. define a variable and give it a string value
+      var k = 'Am I doing this right?!'
 
 //b. define a variable and give it a number value
+      var a = 22
 
 //c. define a variable and give it a boolean value
+      var isSleeping = false;
 
 //2. if else, ternary
+      let year = prompt('What year are we in?')
+      if (year == 2022) alert('You are correct!')
+
 //a. define a variable 'metrocard' and give it a value of 5
+      Var metrocard = 5;
 
 //b. write an if statement that has a condition to check if the value of metro card is greater than 2.75, and display the message "you have enough to ride the train", if the condition is true
-
+     if (metrocard value > 2.75) alert('You have enough to ride')
 //c.write an else statement that displays the message "you do not have enough to pay fare sorry"
 
 //d. write the above if/else statement again as a ternary
