@@ -34,9 +34,9 @@
   alert = "you have enought to ride";
 }
 //c.write an else statement that displays the message "you do not have enough to pay fare sorry"
-else {
-  alert = "you do not have enough to pay fare sorry";
-}
+     else {
+      alert = "you do not have enough to pay fare sorry";
+     }
 
 //d. write the above if/else statement again as a ternary
    if (metrocard >2.75) {
@@ -66,15 +66,32 @@ else {
 
 //4. loops
 //a. write a for loop that console logs even numbers starting at 10 and decrementing to 0
+     for (let i = 0; i < 11; i--) {
+      if (i !==10,8,6,4,2){
+       console.log(i); 
+      }
+     }
 
 //5. objects
 //a. define a variable named 'bike'
+     var bike = ""
 
 //b. assign an object to bike
+     bike = "Helmet"
 
 //c. give the object 3 properties: handlebars, color, wheels
+  const Helmet = {
+  handlebars:""
+  color: ""
+  wheels: ""
+};
 
 //d. give each property a value
+  const Helmet = {
+  handlebars:"2",
+  color: "pink",
+  wheels: "4"
+};
 
 //6. Chessboard
 /*Write a function that creates a string that represents an 8×8 grid, using newline characters to separate lines. At each position of the grid there is either a space or a "#" character. The characters should form a chessboard.
